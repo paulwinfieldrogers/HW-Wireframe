@@ -8,59 +8,37 @@
 }
 
 body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777;
+  background-color: #777;
+  width: '960px';
+  font-size: '18px'
 }
 
-header {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  background: #ccc;
+  h1 {
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #333;
+    background: #ccc;
+}
+ 
+.hnsaf {background-color: #ebebeb
 }
 
-section {
+article {
+color: #ebebeb;
+background-color: #777
 }
 
-#Nav {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  background: #ccc;
+h1{
+  color: #777;
+  background: #ebebeb
 }
 
-#left {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  background: #ccc;
-  float: left;
-  width = 33.3
-}
-
-#middle {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  background: #ccc;
-  float: left
-  width = 33.3
-}
-
-#right {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  background: #ccc;
-  float: left
-  width = 33.3
-}
-
-#full {
-}
-
-#division {
-}
-
-aside {
+p{color: #777;
+  background: #ebebeb
 }
 
 footer {

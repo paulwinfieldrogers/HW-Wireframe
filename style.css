@@ -15,35 +15,71 @@ body {
   font-size: '18px'
 }
 
-  h1 {
-    padding: 20px;
-    margin-bottom: 20px;
-    margin-right: 5px;
-    margin-left: 5px;
-    color: #333;
-    background: #ccc;
-}
- 
 .hnsaf {background-color: #ebebeb
 }
 
-article {
-color: #ebebeb;
-background-color: #777
+  h1 {
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: #333;
 }
 
-h1{
-  color: #777;
-  background: #ebebeb
+
+#nav {
+    color: #333;
+    font-size: 100;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0; 
 }
 
-p{color: #777;
-  background: #ebebeb
+#section {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 5px solid gray;
+  width:60%;
+  float:left;
+  clear: right;
+  height: 150px
+  }
+
+  #aside {
+    color: #333;
+    font-size: 100;
+    padding: 10px;
+    border: 5px solid gray;
+    float: left;
+    width: 40%;
+    height: 150px
+  }
+
+  #article {
+    width: 10%;
+    padding: 10px;
+    border: 5px solid gray;
+    width: 100%;
+    background-color: gray;
+    color: #ebebeb;
+    
+    }
+#head-tags {
+  background-color: #ebebeb;
+  color: grey;
+  border: 5px solid gray;
 }
 
-footer {
+#p {
+  background-color: #ebebeb;
+  color: grey;
+  border: 5px solid gray;
+}
+
+#footer {
   padding: 20px;
   margin-bottom: 20px;
-
-  background: #FFA500;
+  clear: both;
+  display: inline-block;
+  width:100%;
 }
